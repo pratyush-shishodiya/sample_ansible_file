@@ -1,0 +1,16 @@
+---
+- name: Elksetup
+  hosts: webservers
+  remote_user: itachi
+  become: yes
+  tasks:
+        - name: Install python
+          apt:
+              name: python
+              state: present
+        - name: start python
+          service:
+                  name: python
+                  state: started
+
+
