@@ -1,5 +1,5 @@
 ---
-#helooonksdvm,;dblfgkl,xcvbn,,mhgfdxhjghj,mgnfhdhmbnv,m
+
 - name: Elksetup
   hosts: webservers
   remote_user: itachi
